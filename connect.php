@@ -1,11 +1,10 @@
 <?php
-$server = 'lmag6s0zwmcswp5w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$user = 'cpwl2jxjzqbpy7h9';
-$pass = 'wud9bjhkyjvi0kpk ';
-$database = 'k32zmwr9mjdnbp3k';
-$port = '3306';
+$server = 'm7wltxurw8d2n21q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$user = 'd78co66csqefqxnq';
+$pass = 'mj350gtj90n70zmb';
+$database = 'rhpmjug5tcbd919';
 
-$conn = mysqli_connect($server, $user, $pass, $database,$port);
+$conn = mysqli_connect($server, $user, $pass, $database);
 if ($conn) {
     mysqLi_query($conn, "SET NAMES 'utf8' ");
 } else {
