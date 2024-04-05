@@ -1,8 +1,8 @@
 <?php
-$server = 'm7wltxurw8d2n21q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-$user = 'd78co66csqefqxnq';
-$pass = 'mj350gtj90n70zmb';
-$database = 'rhpmjug5tcbd919';
+$server = 'us-cluster-east-01.k8s.cleardb.net';
+$user = 'b8ffe5a62c35f1';
+$pass = '2be9b6f5';
+$database = 'heroku_b16802400ef12b1';
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 if ($conn) {
